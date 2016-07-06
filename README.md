@@ -1,5 +1,5 @@
 ## Nez
-Nez aims to be a lightweight 2D framework that sits on top of MonoGame/FNA. It provides a solid base for you to build a 2D game on. Some of the many features it includes are:
+Nez aims to be a lightweight 2D framework that sits on top of MonoGame/FNA. It provides a solid base for you to build a 2D game on. Details and documentation for Nez can be found at the main [Nez repo](https://github.com/prime31/Nez).
 
 
 FNA Compatibility
@@ -9,9 +9,9 @@ To make getting up and running with FNA easier there is a separate branch along 
 Here is what you need to do to get up and running with Nez + FNA:
 
 - clone this repo recursively
-- switch to the Nez.FNA branch (you may need to update the FNA submodules via `git submodule update`)
-- open the Nez solution and build it
-- open your project add a reference to the Nez.FNA project
+- open the Nez solution (Nez/Nez.sln) and build it. This will cause the NuGet packages to refresh.
+- open the Nez.FNA.sln and you can run the FNATester app
+- to get up and running in your own project, open your project add a reference to the Nez.FNA project
 
 
 ### (optional) Pipeline Tool setup for access to the Nez content importers
@@ -20,5 +20,6 @@ If you want to use the Nez content importers follow the steps outlined [here](ht
 
 
 ### (optional) MonoGame Content Builder (MGCB) setup for your FNA project
+You can take advantage of the excellent MonoGame Pipeline Tool in your FNA project. This setup will get your project working with the MonoGame content builder and wire it up to automatically build your content when you build your project.
 
 stub. content in progress...
