@@ -512,6 +512,9 @@
     <Compile Include="..\Nez\Nez-PCL\Graphics\DeferredLighting\Lights\SpotLight.cs">
       <Link>Nez-PCL\Graphics\DeferredLighting\Lights\SpotLight.cs</Link>
     </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Graphics\Materials\PaletteCyclerMaterial.cs">
+      <Link>Nez-PCL\Graphics\Materials\PaletteCyclerMaterial.cs</Link>
+    </Compile>
     <Compile Include="..\Nez\Nez-PCL\Graphics\Effects\CrosshatchEffect.cs">
       <Link>Nez-PCL\Graphics\Effects\CrosshatchEffect.cs</Link>
     </Compile>
@@ -1204,6 +1207,9 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Utils\MonoGameCompat.cs">
       <Link>Nez-PCL\Utils\MonoGameCompat.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Graphics\Effects\PaletteCyclerEffect.cs">
+      <Link>Nez-PCL\Graphics\Effects\PaletteCyclerEffect.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

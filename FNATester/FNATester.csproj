@@ -229,6 +229,10 @@
       <Link>Content\nez\textures\textureWipeTransition\wink.xnb</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="..\Nez\DefaultContent\FNAEffects\PaletteCycler.fxb">
+      <Link>Content\nez\effects\PaletteCycler.fxb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icon.ico" />
