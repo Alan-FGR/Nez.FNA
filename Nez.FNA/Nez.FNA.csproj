@@ -1211,6 +1211,9 @@
     <Compile Include="..\Nez\Nez-PCL\Graphics\Effects\PaletteCyclerEffect.cs">
       <Link>Nez-PCL\Graphics\Effects\PaletteCyclerEffect.cs</Link>
     </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Utils\Extensions\ObjectExt.cs">
+      <Link>Nez-PCL\Utils\Extensions\ObjectExt.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\Nez\Nez-PCL\Content\NezDefaultBMFont.xnb">
