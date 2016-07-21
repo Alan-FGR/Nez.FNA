@@ -434,9 +434,6 @@
     <Compile Include="..\Nez\Nez-PCL\ECS\InternalUtils\EntityProcessorList.cs">
       <Link>ECS\InternalUtils\EntityProcessorList.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez-PCL\ECS\InternalUtils\EntityTagLists.cs">
-      <Link>ECS\InternalUtils\EntityTagLists.cs</Link>
-    </Compile>
     <Compile Include="..\Nez\Nez-PCL\ECS\InternalUtils\Matcher.cs">
       <Link>ECS\InternalUtils\Matcher.cs</Link>
     </Compile>
@@ -697,9 +694,6 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Math\Axis.cs">
       <Link>Math\Axis.cs</Link>
-    </Compile>
-    <Compile Include="..\Nez\Nez-PCL\Math\Edge.cs">
-      <Link>Math\Edge.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Math\Flags.cs">
       <Link>Math\Flags.cs</Link>
@@ -1213,6 +1207,15 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Utils\Extensions\ObjectExt.cs">
       <Link>Utils\Extensions\ObjectExt.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Math\Matrix2D.cs">
+      <Link>Math\Matrix2D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Utils\Enums.cs">
+      <Link>Utils\Enums.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Utils\Extensions\EdgeExt.cs">
+      <Link>Utils\Extensions\EdgeExt.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

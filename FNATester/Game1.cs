@@ -8,6 +8,7 @@ namespace FNATester
 		protected override void Initialize()
 		{
 			base.Initialize();
+			Window.AllowUserResizing = true;
 			scene = new TestScene();
 		}
 	}

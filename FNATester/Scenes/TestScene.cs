@@ -17,8 +17,8 @@ namespace FNATester
 			addRenderer( new DefaultRenderer() );
 
 			// load up some textures
-			var moonTex = contentManager.Load<Texture2D>( Content.Images.moon );
-			var textureAtlas = contentManager.Load<TextureAtlas>( Content.TextureAtlasTest.atlasImages );
+			var moonTex = content.Load<Texture2D>( Content.Images.moon );
+			var textureAtlas = content.Load<TextureAtlas>( Content.TextureAtlasTest.atlasImages );
 			var tex = textureAtlas.getSubtexture( "tree" );
 
 			// create Entities with Sprites
@@ -37,15 +37,15 @@ namespace FNATester
 			    .start();
 
 			// test an effect
-			var effect = contentManager.loadEffect( Content.Effects.grayscale );
+			var effect = content.loadEffect( Content.Effects.grayscale );
 			tree.getComponent<Sprite>().setMaterial( new Material( effect ) );
 
 			// test a Song
-			var song = contentManager.Load<Song>( Content.Audio.cromaticMinor );
+			var song = content.Load<Song>( Content.Audio.cromaticMinor );
 			MediaPlayer.Play( song );
 
 			// test a SoundEffect
-			var sound = contentManager.Load<SoundEffect>( Content.Audio.airlock );
+			var sound = content.Load<SoundEffect>( Content.Audio.airlock );
 			sound.Play();
 
 			addPostProcessor( new VignettePostProcessor( 0 ) );
