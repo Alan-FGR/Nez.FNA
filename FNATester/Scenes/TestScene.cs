@@ -1,12 +1,14 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Nez;
 using Nez.Sprites;
 using Nez.TextureAtlases;
 using Nez.Tweens;
-
+using SimpleSynth.Synthesizer;
 
 namespace FNATester
 {
@@ -29,6 +31,7 @@ namespace FNATester
 
 			var moon = createEntity( "moon-sprite" )
 				.addComponent( new Sprite( moonTex ) )
+				.addComponent<Sythesizer>()
 				.transform.setPosition( Screen.center );
 
 			// add a tween
@@ -43,6 +46,7 @@ namespace FNATester
 			// test a Song
 			var song = content.Load<Song>( Content.Audio.cromaticMinor );
 			MediaPlayer.Play( song );
+			MediaPlayer.Volume = 0.1f;
 
 			// test a SoundEffect
 			var sound = content.Load<SoundEffect>( Content.Audio.airlock );
@@ -52,6 +56,14 @@ namespace FNATester
 			addPostProcessor( new ScanlinesPostProcessor( 1 ) );
 			addPostProcessor( new HeatDistortionPostProcessor( 2 ) );
 		}
+
+
+		public override void unload()
+		{
+			base.unload();
+			MediaPlayer.Stop();
+		}
 	}
+
 }
 

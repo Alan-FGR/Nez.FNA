@@ -875,9 +875,6 @@
     <Compile Include="..\Nez\Nez-PCL\PipelineRuntime\UISkin\UISkinConfigReader.cs">
       <Link>PipelineRuntime\UISkin\UISkinConfigReader.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez-PCL\Stuff\IMGUI\IMGUI.cs">
-      <Link>Stuff\IMGUI\IMGUI.cs</Link>
-    </Compile>
     <Compile Include="..\Nez\Nez-PCL\UI\Skin.cs">
       <Link>UI\Skin.cs</Link>
     </Compile>
