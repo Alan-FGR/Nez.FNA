@@ -1214,6 +1214,9 @@
     <Compile Include="..\Nez\Nez-PCL\Utils\Extensions\EdgeExt.cs">
       <Link>Utils\Extensions\EdgeExt.cs</Link>
     </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Utils\Extensions\SoundEffectInstanceExt.cs">
+      <Link>Utils\Extensions\SoundEffectInstanceExt.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\Nez\Nez-PCL\Content\NezDefaultBMFont.xnb">
