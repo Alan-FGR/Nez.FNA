@@ -31,7 +31,6 @@ namespace FNATester
 
 			var moon = createEntity( "moon-sprite" )
 				.addComponent( new Sprite( moonTex ) )
-				.addComponent<Sythesizer>()
 				.transform.setPosition( Screen.center );
 
 			// add a tween
@@ -46,7 +45,7 @@ namespace FNATester
 			// test a Song
 			var song = content.Load<Song>( Content.Audio.cromaticMinor );
 			MediaPlayer.Play( song );
-			MediaPlayer.Volume = 0.1f;
+			MediaPlayer.Volume = 0.2f;
 
 			// test a SoundEffect
 			var sound = content.Load<SoundEffect>( Content.Audio.airlock );
