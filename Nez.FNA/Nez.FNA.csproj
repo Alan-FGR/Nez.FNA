@@ -152,10 +152,10 @@
     <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\AStar\AStarPathfinder.cs">
       <Link>AI\Pathfinding\AStar\AStarPathfinder.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\AStar\IWeightedGraph.cs">
+    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\AStar\IAstarGraph.cs">
       <Link>AI\Pathfinding\AStar\IWeightedGraph.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\AStar\WeightedGridGraph.cs">
+    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\AStar\AstarGridGraph.cs">
       <Link>AI\Pathfinding\AStar\WeightedGridGraph.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\BreadthFirst\BreadthFirstPathfinder.cs">
@@ -169,6 +169,15 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\BreadthFirst\UnweightedGridGraph.cs">
       <Link>AI\Pathfinding\BreadthFirst\UnweightedGridGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\Dijkstra\WeightedPathfinder.cs">
+      <Link>AI\Pathfinding\Dijkstra\AStarPathfinder.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\Dijkstra\IWeightedGraph.cs">
+      <Link>AI\Pathfinding\Dijkstra\IWeightedGraph.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\AI\Pathfinding\Dijkstra\WeightedGridGraph.cs">
+      <Link>AI\Pathfinding\Dijkstra\WeightedGridGraph.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\AI\UtilityAI\UtilityAI.cs">
       <Link>AI\UtilityAI\UtilityAI.cs</Link>
