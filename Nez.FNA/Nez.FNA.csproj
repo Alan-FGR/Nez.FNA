@@ -404,9 +404,6 @@
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\Sprites\SpriteAnimation.cs">
       <Link>ECS\Components\Renderables\Sprites\SpriteAnimation.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\Sprites\SpriteAnimationFrame.cs">
-      <Link>ECS\Components\Renderables\Sprites\SpriteAnimationFrame.cs</Link>
-    </Compile>
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\Sprites\SpriteMime.cs">
       <Link>ECS\Components\Renderables\Sprites\SpriteMime.cs</Link>
     </Compile>
@@ -421,7 +418,7 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\Sprites\TiledSprite.cs">
       <Link>ECS\Components\Renderables\Sprites\TiledSprite.cs</Link>
-    </Compile>
+    </Compile>	
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Text\FramesPerSecondCounter.cs">
       <Link>ECS\Components\Text\FramesPerSecondCounter.cs</Link>
     </Compile>
@@ -1228,6 +1225,33 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Physics\ColliderTriggerHelper.cs">
       <Link>Physics\ColliderTriggerHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\Cube3D.cs">
+      <Link>ECS\Components\Renderables\3D\Cube3D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\GeometricPrimitive3D.cs">
+      <Link>ECS\Components\Renderables\3D\GeometricPrimitive3D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\Model3D.cs">
+      <Link>ECS\Components\Renderables\3D\Model3D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\Renderable3D.cs">
+      <Link>ECS\Components\Renderables\3D\Renderable3D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\Sphere3D.cs">
+      <Link>ECS\Components\Renderables\3D\Sphere3D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\Torus3D.cs">
+      <Link>ECS\Components\Renderables\3D\Torus3D.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\3D\VertexPositionColorNormal.cs">
+      <Link>ECS\Components\Renderables\3D\VertexPositionColorNormal.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Graphics\Effects\DissolveEffect.cs">
+      <Link>Graphics\Effects\DissolveEffect.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\Sprites\PrototypeSprite.cs">
+      <Link>ECS\Components\Renderables\Sprites\PrototypeSprite.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
