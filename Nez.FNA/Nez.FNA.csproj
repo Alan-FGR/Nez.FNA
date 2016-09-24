@@ -1253,6 +1253,9 @@
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\Sprites\PrototypeSprite.cs">
       <Link>ECS\Components\Renderables\Sprites\PrototypeSprite.cs</Link>
     </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\LineRenderer.cs">
+      <Link>ECS\Components\Renderables\LineRenderer.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\Nez\Nez-PCL\Content\NezDefaultBMFont.xnb">
