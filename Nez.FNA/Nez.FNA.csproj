@@ -359,9 +359,6 @@
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\RenderableComponent.cs">
       <Link>ECS\Components\Renderables\RenderableComponent.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\SimplePolygon.cs">
-      <Link>ECS\Components\Renderables\SimplePolygon.cs</Link>
-    </Compile>
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\SpringGrid.cs">
       <Link>ECS\Components\Renderables\SpringGrid.cs</Link>
     </Compile>
@@ -728,6 +725,15 @@
     <Compile Include="..\Nez\Nez-PCL\Physics\SpatialHash.cs">
       <Link>Physics\SpatialHash.cs</Link>
     </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Particle.cs">
+      <Link>Physics\Verlet\Particle.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Ball.cs">
+      <Link>Physics\Verlet\Composites\Ball.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Constraints\Constraint.cs">
+      <Link>Physics\Verlet\Constraints\Constraint.cs</Link>
+    </Compile>
     <Compile Include="..\Nez\Nez-PCL\Physics\QuadTree\IQuadTreeStorable.cs">
       <Link>Physics\QuadTree\IQuadTreeStorable.cs</Link>
     </Compile>
@@ -739,6 +745,9 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Physics\QuadTree\QuadTreeObject.cs">
       <Link>Physics\QuadTree\QuadTreeObject.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\ShapeCollisions\ShapeCollisionsBox.cs">
+      <Link>Physics\Shapes\ShapeCollisions\ShapeCollisionsBox.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\Box.cs">
       <Link>Physics\Shapes\Box.cs</Link>
@@ -757,9 +766,6 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\Shape.cs">
       <Link>Physics\Shapes\Shape.cs</Link>
-    </Compile>
-    <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\ShapeCollisions.cs">
-      <Link>Physics\Shapes\ShapeCollisions.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\PipelineRuntime\BitmapFonts\BitmapFont.cs">
       <Link>PipelineRuntime\BitmapFonts\BitmapFont.cs</Link>
@@ -1255,6 +1261,57 @@
     </Compile>
     <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\LineRenderer.cs">
       <Link>ECS\Components\Renderables\LineRenderer.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\ECS\Components\Renderables\PolygonMesh.cs">
+      <Link>ECS\Components\Renderables\PolygonMesh.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\World.cs">
+      <Link>Physics\Verlet\World.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Box.cs">
+      <Link>Physics\Verlet\Composites\Box.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Cloth.cs">
+      <Link>Physics\Verlet\Composites\Cloth.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Composite.cs">
+      <Link>Physics\Verlet\Composites\Composite.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\LineSegments.cs">
+      <Link>Physics\Verlet\Composites\LineSegments.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Ragdoll.cs">
+      <Link>Physics\Verlet\Composites\Ragdoll.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Tire.cs">
+      <Link>Physics\Verlet\Composites\Tire.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Composites\Tree.cs">
+      <Link>Physics\Verlet\Composites\Tree.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Constraints\AngleConstraint.cs">
+      <Link>Physics\Verlet\Constraints\AngleConstraint.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Verlet\Constraints\DistanceConstraint.cs">
+      <Link>Physics\Verlet\Constraints\DistanceConstraint.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\ShapeCollisions\ShapeCollisionsCircle.cs">
+      <Link>Physics\Shapes\ShapeCollisions\ShapeCollisionsCircle.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\ShapeCollisions\ShapeCollisionsLine.cs">
+      <Link>Physics\Shapes\ShapeCollisions\ShapeCollisionsLine.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\ShapeCollisions\ShapeCollisionsPoint.cs">
+      <Link>Physics\Shapes\ShapeCollisions\ShapeCollisionsPoint.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Physics\Shapes\ShapeCollisions\ShapeCollisionsPolygon.cs">
+      <Link>Physics\Shapes\ShapeCollisions\ShapeCollisionsPolygon.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Debug\DebugDefaults.cs">
+      <Link>Debug\DebugDefaults.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez-PCL\Utils\Tweens\RenderableColorTween.cs">
+      <Link>Utils\Tweens\RenderableColorTween.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
