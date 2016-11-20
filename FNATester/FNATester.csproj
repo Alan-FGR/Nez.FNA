@@ -258,6 +258,10 @@
       <Project>{11A5855C-B12C-4F8D-B935-56F3D0B671C3}</Project>
       <Name>Nez.FNA</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nez\Nez.FarseerPhysics\Nez.FarseerPhysics.csproj">
+      <Project>{CB893B1D-CE04-4492-B957-31CE0DCA6C15}</Project>
+      <Name>Nez.FarseerPhysics</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scenes\" />
