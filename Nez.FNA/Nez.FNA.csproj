@@ -330,14 +330,14 @@
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\ArcadeRigidbody.cs">
       <Link>ECS\Components\Physics\ArcadeRigidbody.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\BoxCollider.cs">
-      <Link>ECS\Components\Physics\BoxCollider.cs</Link>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\Colliders\BoxCollider.cs">
+      <Link>ECS\Components\Physics\Colliders\BoxCollider.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\CircleCollider.cs">
-      <Link>ECS\Components\Physics\CircleCollider.cs</Link>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\Colliders\CircleCollider.cs">
+      <Link>ECS\Components\Physics\Colliders\CircleCollider.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\Collider.cs">
-      <Link>ECS\Components\Physics\Collider.cs</Link>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\Colliders\Collider.cs">
+      <Link>ECS\Components\Physics\Colliders\Collider.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\ITriggerListener.cs">
       <Link>ECS\Components\Physics\ITriggerListener.cs</Link>
@@ -345,8 +345,8 @@
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\Mover.cs">
       <Link>ECS\Components\Physics\Mover.cs</Link>
     </Compile>
-    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\PolygonCollider.cs">
-      <Link>ECS\Components\Physics\PolygonCollider.cs</Link>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\Colliders\PolygonCollider.cs">
+      <Link>ECS\Components\Physics\Colliders\PolygonCollider.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Physics\ProjectileMover.cs">
       <Link>ECS\Components\Physics\ProjectileMover.cs</Link>
@@ -425,9 +425,6 @@
     </Compile>
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Text\Text.cs">
       <Link>ECS\Components\Text\Text.cs</Link>
-    </Compile>
-    <Compile Include="..\Nez\Nez.Portable\ECS\InternalUtils\ColliderList.cs">
-      <Link>ECS\InternalUtils\ColliderList.cs</Link>
     </Compile>
     <Compile Include="..\Nez\Nez.Portable\ECS\InternalUtils\ComponentList.cs">
       <Link>ECS\InternalUtils\ComponentList.cs</Link>
