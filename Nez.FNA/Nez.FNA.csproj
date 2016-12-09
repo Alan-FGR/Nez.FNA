@@ -1275,6 +1275,9 @@
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\LineRenderer.cs">
       <Link>ECS\Components\Renderables\LineRenderer.cs</Link>
     </Compile>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\PolygonLight\EndPoint.cs">
+      <Link>ECS\Components\Renderables\PolygonLight\EndPoint.cs</Link>
+    </Compile>
     <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\PolygonMesh.cs">
       <Link>ECS\Components\Renderables\PolygonMesh.cs</Link>
     </Compile>
@@ -1412,6 +1415,21 @@
     </Compile>
     <Compile Include="..\Nez\Nez.Portable\Math\BezierSpline.cs">
       <Link>Math\BezierSpline.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\PolygonLight\PolyLight.cs">
+      <Link>ECS\Components\Renderables\PolygonLight\PolyLight.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\PolygonLight\PolySpotLight.cs">
+      <Link>ECS\Components\Renderables\PolygonLight\PolySpotLight.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\PolygonLight\Segment.cs">
+      <Link>ECS\Components\Renderables\PolygonLight\Segment.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez.Portable\ECS\Components\Renderables\PolygonLight\VisibilityComputer.cs">
+      <Link>ECS\Components\Renderables\PolygonLight\VisibilityComputer.cs</Link>
+    </Compile>
+    <Compile Include="..\Nez\Nez.Portable\Graphics\PostProcessing\PostProcessors\PolyLightPostProcessor.cs">
+      <Link>Graphics\PostProcessing\PostProcessors\PolyLightPostProcessor.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>

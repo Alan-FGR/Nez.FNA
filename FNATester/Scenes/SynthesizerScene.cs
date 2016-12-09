@@ -6,7 +6,7 @@ using Nez.TextureAtlases;
 
 namespace FNATester
 {
-	public class SythesizerScene : Scene
+	public class SynthesizerScene : Scene
 	{
 		public override void initialize()
 		{
@@ -19,7 +19,7 @@ namespace FNATester
 			// create Entities with Sprites
 			var tree = createEntity( "sprite" );
 			tree.addComponent( new Sprite( tex ) )
-			    .addComponent<Sythesizer>()
+			    .addComponent<Synthesizer>()
 				.transform.setPosition( Screen.center );
 		}
 	}

@@ -1,14 +1,13 @@
-﻿using System;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Nez;
+using Nez.Shadows;
 using Nez.Sprites;
 using Nez.TextureAtlases;
 using Nez.Tweens;
-using SimpleSynth.Synthesizer;
+
 
 namespace FNATester
 {
@@ -26,17 +25,23 @@ namespace FNATester
 			// create Entities with Sprites
 			var tree = createEntity( "tree-sprite" );
 			tree.addComponent( new Sprite( tex ) )
-			    .setLayerDepth( 1 )
+				.setLayerDepth( 1 )
 				.transform.setPosition( Screen.center );
+
+			// stick a PolyLight in there
+			createEntity( "poly-light" )
+				.addComponent( new PolyLight( 600, Color.Red ) )
+				.transform.setPosition( Screen.center + new Vector2( 120, 0 ) );
 
 			var moon = createEntity( "moon-sprite" )
 				.addComponent( new Sprite( moonTex ) )
+				.addComponent( new CircleCollider() )
 				.transform.setPosition( Screen.center );
 
 			// add a tween
 			moon.tweenLocalPositionTo( new Vector2(), 0.5f )
-			    .setLoops( LoopType.PingPong, 5000 )
-			    .start();
+				.setLoops( LoopType.PingPong, 5000 )
+				.start();
 
 			// test an effect
 			var effect = content.loadEffect( Content.Effects.grayscale );

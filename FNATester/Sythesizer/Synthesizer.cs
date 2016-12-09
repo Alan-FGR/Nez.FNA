@@ -5,13 +5,13 @@ using SimpleSynth.Synthesizer;
 
 namespace FNATester
 {
-	public class Sythesizer : Component, IUpdatable
+	public class Synthesizer : Component, IUpdatable
 	{
 		int _currentOscillator = 0;
 		Synth _synth;
 
 
-		public Sythesizer()
+		public Synthesizer()
 		{
 			_synth = new Synth();
 		}
