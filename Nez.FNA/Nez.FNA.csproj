@@ -318,12 +318,6 @@
     <Compile Include="..\Nez\Nez.Portable\Math\Random.cs"><Link>Math\Random.cs</Link></Compile>
     <Compile Include="..\Nez\Nez.Portable\Math\RectangleF.cs"><Link>Math\RectangleF.cs</Link></Compile>
     <Compile Include="..\Nez\Nez.Portable\Math\SubpixelFloat.cs"><Link>Math\SubpixelFloat.cs</Link></Compile>
-    <Compile Include="..\Nez\Nez.Portable\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"><Link>obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Link></Compile>
-    <Compile Include="..\Nez\Nez.Portable\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"><Link>obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Link></Compile>
-    <Compile Include="..\Nez\Nez.Portable\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"><Link>obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Link></Compile>
-    <Compile Include="..\Nez\Nez.Portable\obj\x64\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs"><Link>obj\x64\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Link></Compile>
-    <Compile Include="..\Nez\Nez.Portable\obj\x64\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs"><Link>obj\x64\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Link></Compile>
-    <Compile Include="..\Nez\Nez.Portable\obj\x64\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs"><Link>obj\x64\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Link></Compile>
     <Compile Include="..\Nez\Nez.Portable\Physics\ColliderTriggerHelper.cs"><Link>Physics\ColliderTriggerHelper.cs</Link></Compile>
     <Compile Include="..\Nez\Nez.Portable\Physics\Collisions.cs"><Link>Physics\Collisions.cs</Link></Compile>
     <Compile Include="..\Nez\Nez.Portable\Physics\Physics.cs"><Link>Physics\Physics.cs</Link></Compile>
